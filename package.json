@@ -1,0 +1,26 @@
+{
+  "name": "examen-final-tp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env src/index.js",
+    "dev": "node --env-file=.env --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasgratz/examen-final-tp2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/matiasgratz/examen-final-tp2/issues"
+  },
+  "homepage": "https://github.com/matiasgratz/examen-final-tp2#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
